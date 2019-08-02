@@ -43,7 +43,7 @@ return lolo;
 };
 
 function iq() {
-    var iqres = getRandomInt(1, 190);
+    var iqres = getRandomInt(-1, 190);
     return iqres;
 };
 
