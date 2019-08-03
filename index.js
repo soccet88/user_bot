@@ -16,7 +16,7 @@ client.on('message', message => {
 
 client.on('message', message => { 
     if(message.content === "!слава") {
-        message.channel.send('Украине');
+        message.channel.send('России');
     }
 }); 
 
