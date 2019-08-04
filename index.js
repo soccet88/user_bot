@@ -15,13 +15,10 @@ client.on('message', message => {
 });
 
 client.on('message', message => { 
-    if  ((message.content === "!слава") && (${msg.author} === "@abdulov#1074" )) {
-        message.channel.send('России');
-    };
-    else if ((message.content === "!слава") && (${msg.author} != "@abdulov#1074" )){
+    if(message.content === "!слава") {
         message.channel.send('Украине');
-             };
-}); 
+    }
+});  
 
 client.on('message', message => { 
     if(message.content === "!info") {
