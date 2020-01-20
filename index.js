@@ -44,6 +44,11 @@ client.on('message', (msg) => {
     }
 });
 
+client.on('message', message => { 
+    if(message.content === "!роджер") {
+        message.channel.send('а кто такой роджер');
+    }
+});  
 
 client.login(process.env.BOT_TOKEN);
 
