@@ -1,7 +1,7 @@
 function getRandomInt(min, max){
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-function Mark() {
+function zalupa() {
 var named = [
     "Мой владелец сейчас в рейсе Москва - Новый Уренгой",
     "Тише блядь рыбу всю испугаешь, не видешь рыбачу",
@@ -101,7 +101,7 @@ function shs(){
 };
 
 
-module.exports.Mark =  Mark;
+module.exports.zalupa =  zalupa;
 module.exports.aneki =  aneki;
 module.exports.pasti =  pasti;
 module.exports.iq = iq;
