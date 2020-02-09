@@ -1,7 +1,21 @@
 function getRandomInt(min, max){
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-
+function Mark() {
+var named = [
+    "Мой владелец сейчас в рейсе Москва - Новый Уренгой",
+    "Тише блядь рыбу всю испугаешь, не видешь рыбачу",
+    "Его снова блядь в дурку положили, через 2 недели вернется",
+    "Да, что надо?",
+    "Токсин, @Anton#9161 , Выходи драться, говно",
+    "Слава роду Славянскому",
+    "Эхххххххххх, Эвелинушку бы......",
+    "Похуй",
+    "Отъебись, я плакать буду"
+];
+var  xmarks = named[getRandomInt(0, 8)];
+return xmarks;
+};
 
 function aneki() {
 var anekdoti = [
@@ -87,6 +101,7 @@ function shs(){
 };
 
 
+module.exports.Mark =  Mark;
 module.exports.aneki =  aneki;
 module.exports.pasti =  pasti;
 module.exports.iq = iq;
