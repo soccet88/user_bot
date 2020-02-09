@@ -51,7 +51,7 @@ client.on('message', message => {
 });  
  client.on('message', message => { 
     if(message.content === "!Марк") {
-        message.channel.send(meme.Mark());
+        message.channel.send(meme.zalupa());
     }
 });
 
