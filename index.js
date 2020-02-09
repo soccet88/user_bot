@@ -49,6 +49,11 @@ client.on('message', message => {
         message.channel.send('а кто такой роджер');
     }
 });  
+ client.on('message', message => { 
+    if(message.content === "!Марк") {
+        message.channel.send(meme.Mark());
+    }
+});
 
 client.login(process.env.BOT_TOKEN);
 
