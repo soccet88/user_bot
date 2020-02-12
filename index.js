@@ -8,11 +8,14 @@ client.on('ready', () => {
     console.log('I am ready!');
   });
 
+
+
 client.on('message', message => { 
     if(message.content === "!анекдот") {
         message.channel.send(meme.aneki());
     }
 });
+
 
 client.on('message', message => { 
     if(message.content === "!слава") {
@@ -49,17 +52,19 @@ client.on('message', message => {
         message.channel.send('а кто такой роджер');
     }
 });  
+
+
  client.on('message', message => { 
     if(message.content === "!Марк") {
         message.channel.send(meme.zalupa());
     }
 });
 
+
+ client.on('message', message => { 
+    if(message.content === "!Юзер") {
+        message.channel.send(meme.uzer());
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
-
-
-
-
-
-
-
