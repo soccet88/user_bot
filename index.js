@@ -53,13 +53,11 @@ client.on('message', message => {
     }
 });  
 
-
  client.on('message', message => { 
     if(message.content === "!Марк") {
         message.channel.send(meme.zalupa());
     }
 });
-
 
  client.on('message', message => { 
     if(message.content === "!Юзер") {
@@ -67,4 +65,4 @@ client.on('message', message => {
     }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.NjA2MTU3MTYzNjA5NDU2NjYw.XkR4Zw.Dla_aBfNPeaC56IDNx-AaBu3dZo);
