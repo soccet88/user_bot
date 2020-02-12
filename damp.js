@@ -1,6 +1,8 @@
 function getRandomInt(min, max){
     return Math.floor(Math.random() * (max - min + 1)) + min;
 };
+
+
 function zalupa() {
 var named = [
     "Мой владелец сейчас в рейсе Москва - Новый Уренгой",
@@ -16,6 +18,30 @@ var named = [
 var  xmarks = named[getRandomInt(0, 8)];
 return xmarks;
 };
+
+
+function uzer() {
+var named = [
+    "Сука сейчас забаню нахуй",
+    "Слава Украине",
+    "Бля ну верните Крым :biblethump: ",
+    "Отъебись"
+    "Я КРИМИНАЛЬНОЕ СООБЩЕСТВО",
+    "Слава роду Славянскому",
+    "Эхххххххххх, Эвелинушку бы......",
+    "Похуй",
+    "ЧИЧАС БЫ В ПОЕ",
+    "Ты сейчас реально в бан полетишь",
+    "О, привет, а я тебя знаю, ты конченый",
+    "даркбыдла",
+    "Фу, Токсик",
+    "ЖIВЕ БЕЛАРУСЬ",
+    "Ти байстрюк ебаній"
+];
+var  xmarks = named[getRandomInt(0, 14)];
+return xmarks;
+};
+
 
 function aneki() {
 var anekdoti = [
@@ -101,6 +127,7 @@ function shs(){
 };
 
 
+module.exports.uzer =  uzer;
 module.exports.zalupa =  zalupa;
 module.exports.aneki =  aneki;
 module.exports.pasti =  pasti;
