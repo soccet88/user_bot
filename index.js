@@ -59,6 +59,12 @@ client.on('message', message => {
     }
 });
 
+client.on('message', message => { 
+    if(message.content === "1487") {
+        message.channel.send('1488');
+    }
+});
+
  client.on('message', message => { 
     if(message.content === "!Юзер") {
         message.channel.send(meme.uzer());
