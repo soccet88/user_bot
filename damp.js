@@ -127,10 +127,8 @@ function iq() {
 function shs(){
     var img = [
         'https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/87/87baf2a7ed36f7ed9b179502f0c927a4558c5ebc_full.jpg',
-        'https://i.ytimg.com/vi/BPeWkEuXvD0/maxresdefault.jpg',
         'https://i.ytimg.com/vi/LE1SoN7eDHw/sddefault.jpg',
         'https://i.ytimg.com/vi/LE1SoN7eDHw/sddefault.jpg',
-        'http://moya-muzyka.ru/uploads/images/ansha_abdul_istselenie_dobrom_reabilitatsija.jpg',
         'https://pbs.twimg.com/media/Dy290SOXQAAujWh.jpg', 
         'https://im0-tub-ru.yandex.net/i?id=044fbe91ed86fa9cc5b8043e84eb6ff0&n=13&exp=1',
         'https://yt3.ggpht.com/a/AGF-l78ShWElqJO1085eG4h_VgmKZLH18jd6t1t3Bw=s900-mo-c-c0xffffffff-rj-k-no',
@@ -139,9 +137,7 @@ function shs(){
         'https://avatars.mds.yandex.net/get-pdb/1985244/6f512dc6-c6b4-418b-b31d-9f4784c5e65e/s1200?webp=false',
         'https://pp.userapi.com/c303612/v303612390/4cf0/k0lbdepAVL8.jpg',
         'https://cs7.pikabu.ru/post_img/2017/11/21/5/og_og_1511250324266528149.jpg',
-        'https://cs7.pikabu.ru/post_img/2017/11/21/5/og_og_1511250324266528149.jpg',
         'http://img10.reactor.cc/pics/post/JoJo%27s-Bizarre-Adventure-Anime-Diamond-is-Unbreakable-kira-yoshikage-3942088.jpeg',
-        "https://im0-tub-ru.yandex.net/i?id=ed75efe04897688243f825ca54bb92d2&n=33&w=225&h=164",
         "https://sun9-18.userapi.com/c858132/v858132365/218612/I4bWQ4zhgAM.jpg",
         "https://sun9-23.userapi.com/c857224/v857224198/1d38e0/NoTS25ew7uI.jpg",
         "https://sun9-54.userapi.com/c858328/v858328864/20f26e/g2qvsmfXjSk.jpg",
@@ -156,7 +152,7 @@ function shs(){
         "https://sun9-28.userapi.com/c856524/v856524866/15d0e6/2B4k04qyyec.jpg",
 
     ]
-    var photo = img[getRandomInt(0, 27)];
+    var photo = img[getRandomInt(0, 23)];
     return photo;
 };
 
