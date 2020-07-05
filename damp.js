@@ -142,9 +142,21 @@ function shs(){
         'https://cs7.pikabu.ru/post_img/2017/11/21/5/og_og_1511250324266528149.jpg',
         'http://img10.reactor.cc/pics/post/JoJo%27s-Bizarre-Adventure-Anime-Diamond-is-Unbreakable-kira-yoshikage-3942088.jpeg',
         "https://im0-tub-ru.yandex.net/i?id=ed75efe04897688243f825ca54bb92d2&n=33&w=225&h=164",
+        "https://sun9-18.userapi.com/c858132/v858132365/218612/I4bWQ4zhgAM.jpg",
+        "https://sun9-23.userapi.com/c857224/v857224198/1d38e0/NoTS25ew7uI.jpg",
+        "https://sun9-54.userapi.com/c858328/v858328864/20f26e/g2qvsmfXjSk.jpg",
+        "https://sun9-23.userapi.com/c855016/v855016776/239867/Ip4zyrVnI0U.jpg",
+        "https://sun9-5.userapi.com/c858132/v858132712/208e73/-KHrSZwqAto.jpg",
+        "https://sun9-8.userapi.com/c857216/v857216776/1d2a1d/AIghOxblt0k.jpg",
+        "https://sun9-72.userapi.com/c857628/v857628776/21da30/Sd93CIEjviY.jpg",
+        "https://sun9-27.userapi.com/c853420/v853420062/242705/Tmy0qrBvUU8.jpg",
+        "https://sun9-23.userapi.com/c855428/v855428050/249bef/BUy_psqLLJE.jpg",
+        "https://sun9-3.userapi.com/c855428/v855428170/24423c/_y75afr14UE.jpg",
+        "https://sun9-17.userapi.com/c858128/v858128398/1f8e14/Lt0AhbG0pZE.jpg",
+        "https://sun9-28.userapi.com/c856524/v856524866/15d0e6/2B4k04qyyec.jpg",
 
     ]
-    var photo = img[getRandomInt(0, 15)];
+    var photo = img[getRandomInt(0, 27)];
     return photo;
 };
 
