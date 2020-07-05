@@ -19,28 +19,6 @@ var  xmarks = named[getRandomInt(0, 8)];
 return xmarks;
 };
 
-function pavla() {
-    var named = [
-        "А вы живы?",
-        "Я похож на шутку?",
-        "Ты меня не любишь",
-        "Иди на хуй",
-        "@user_han сюда иди блэт",
-        "Ой привет",
-        "Да Боже не живу я в мытищах",
-        "@матёрый шопоголик иди к нам кусок говна",
-        "Я тут на другой сервак зашла все такие тупые",
-        "Тут кажется Марк сломался",
-        "Я сейчас сижу на другом сервере и тут такие токсичные и не адекватные люди",
-        "А по ебалу не хочешь?",
-        "Шиза?",
-        "А я клоун с шизой",
-        "Тварь:joy_cat::joy_cat::joy_cat:",
-        "Очко не игрушка"
-    ];
-    var  xmarks = named[getRandomInt(0, 16)];
-    return xmarks;
-    };
 
 function uzer() {
 var named = [
@@ -64,6 +42,28 @@ var  xmarks = named[getRandomInt(0, 14)];
 return xmarks;
 };
 
+function pavla() {
+    var named = [
+        "А вы живы?",
+        "Я похож на шутку?",
+        "Ты меня не любишь",
+        "Иди на хуй",я
+        "@user_han сюда иди блэт",
+        "Ой привет",
+        "Да Боже не живу я в мытищах",
+        "@матёрый шопоголик иди к нам кусок говна",
+        "Я тут на другой сервак зашла все такие тупые",
+        "Тут кажется Марк сломался",
+        "Я сейчас сижу на другом сервере и тут такие токсичные и не адекватные люди",
+        "А по ебалу не хочешь?",
+        "Шиза?",
+        "А я клоун с шизой",
+        "Тварь:joy_cat::joy_cat::joy_cat:",
+        "Очко не игрушка"
+    ];
+    var  xmarks = named[getRandomInt(0, 16)];
+    return xmarks;
+};
 
 function aneki() {
 var anekdoti = [
@@ -155,4 +155,5 @@ module.exports.aneki =  aneki;
 module.exports.pasti =  pasti;
 module.exports.iq = iq;
 module.exports.getRandomInt = getRandomInt;
-module.exports.shs = shs
+module.exports.shs = shs;
+module.exports.pavla = pavla;
